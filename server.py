@@ -8,7 +8,7 @@ import sys # Import the system package
 if __name__ == "__main__":
     # Define constants to hold the hostname and port number
     HOSTNAME = "localhost"
-    PORT_NUMBER = 8080 # This port number is not commonly used by traditional programs
+    PORT_NUMBER = 8084 # This port number is not commonly used by traditional programs
     
     # Create a TCP server socket to listen for at most one connection
     server_socket = socket(AF_INET, SOCK_STREAM) # Create the socket
@@ -30,8 +30,9 @@ if __name__ == "__main__":
 
             # We need to extract the file path from the second part of the HTTP header
             # The message variable holds the message requested
-            filename = message.split()[1] # Get the filename from the incoming message
-        
+            filename = message.split() # Get the filename from the incoming message
+            filename = filename[1]
+
             file = open(filename[1:]) # Start reading from character 1 since it is a backslash
 
             file_content = file.read() # Read the file in and store its contents in  variable
