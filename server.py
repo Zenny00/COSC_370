@@ -8,7 +8,7 @@ import sys # Import the system package
 if __name__ == "__main__":
     # Define constants to hold the hostname and port number
     HOSTNAME = "localhost"
-    PORT_NUMBER = 8084 # This port number is not commonly used by traditional programs
+    PORT_NUMBER = 5002 # This port number is not commonly used by traditional programs
     
     # Create a TCP server socket to listen for at most one connection
     server_socket = socket(AF_INET, SOCK_STREAM) # Create the socket
@@ -28,22 +28,25 @@ if __name__ == "__main__":
         try:
             message = connected_socket.recv(1024).decode() # Accept a 1024 byte (1KB) request from the client
 
-            # We need to extract the file path from the second part of the HTTP header
-            # The message variable holds the message requested
-            filename = message.split() # Get the filename from the incoming message
-            filename = filename[1]
+            try:
+                # We need to extract the file path from the second part of the HTTP header
+                # The message variable holds the message requested
+                filename = message.split() # Get the filename from the incoming message
+                filename = filename[1]
 
-            file = open(filename[1:]) # Start reading from character 1 since it is a backslash
+                file = open(filename[1:]) # Start reading from character 1 since it is a backslash
 
-            file_content = file.read() # Read the file in and store its contents in  variable
+                file_content = file.read() # Read the file in and store its contents in  variable
 
-            # Send an HTTP 200 response to the connected socket
-            response = "HTTP/1.1 200 OK\r\n\r\n".encode()
-            connected_socket.send(response)
+                # Send an HTTP 200 response to the connected socket
+                response = "HTTP/1.1 200 OK\r\n\r\n".encode()
+                connected_socket.send(response)
 
-            # Send the data
-            for i in range(0, len(file_content)):
-                connected_socket.send(file_content[i].encode())
+                # Send the data
+                for i in range(0, len(file_content)):
+                    connected_socket.send(file_content[i].encode())
+            except IndexError:
+                print("Error parsing filename")
 
             # Send the end of the message and close the socket
             connected_socket.send("\r\n".encode())
