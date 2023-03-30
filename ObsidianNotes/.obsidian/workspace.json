@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "8d093f13c463c3fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "762452e0c0d78c83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "457e544cfc25d9ff",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "COSC 370 Midterm Exam Review.canvas",
+                "viewState": {
+                  "x": -276.09969116858247,
+                  "y": -1463.7455087077183,
+                  "zoom": 0.3268486167688467
+                }
+              }
+            }
+          },
+          {
+            "id": "bd3e46cf99208a0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COSC 370 Wireshark Lab 4 - UDP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e942bd54422ce0c3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20230307210240.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b4c5bcb7812690ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4a0352f22892832",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd3c639a7fff716a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2395bf01717d24da",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Throughput",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "83b7cce10af5f44c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b66252b125bca512",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f3f1883a16cbc11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "580f7cd447aaed6b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "COSC 370 Wireshark Lab 4 - UDP.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbeaec976ee0f07c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "COSC 370 Wireshark Lab 4 - UDP.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "91ab502500d9aff1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c7dce4abe2eeca45",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "COSC 370 Wireshark Lab 4 - UDP.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "bd3e46cf99208a0e",
+  "lastOpenFiles": [
+    "COSC 370 Midterm Exam Review.canvas",
+    "COSC 370 Wireshark Lab 4 - UDP.md",
+    "Wireshark Lab 2.md",
+    "Pasted image 20230307212437.png",
+    "Pasted image 20230307214549.png",
+    "Pasted image 20230308102936.png",
+    "COSC 370 Knowledge Check 2.md",
+    "Pasted image 20230307111222.png",
+    "Untitled 1.canvas",
+    "Pasted image 20230307210240.png",
+    "Pasted image 20230307205012.png",
+    "Pasted image 20230307142134.png",
+    "djfhoidsfg.md",
+    "COSC 370 Lab3 - DNS.md"
+  ]
+}
